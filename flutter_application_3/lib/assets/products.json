@@ -1,0 +1,149 @@
+[
+    {
+        "name": "iPhone",
+        "description": "iPhone — самый стильный телефон",
+        "price": 1000,
+        "imageUrl": "lib/assets/images/iphone.jpeg",
+        "IsLiked": false
+    },
+    {
+        "name": "Pixel",
+        "description": "Pixel — самый многофункциональный телефон",
+        "price": 800,
+        "imageUrl": "lib/assets/images/pixel.jpg",
+        "IsLiked": false
+    },
+    {
+        "name": "Ноутбук",
+        "description": "Ноутбук — самый продуктивный инструмент для разработки",
+        "price": 2000,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Планшет",
+        "description": "Планшет — самый полезный гаджет для встреч",
+        "price": 1500,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Флешка",
+        "description": "Флешка — полезное средство для хранения",
+        "price": 100,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Дискета",
+        "description": "Дискета — полезное средство для восстановления данных",
+        "price": 20,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Умные часы",
+        "description": "Умные часы для отслеживания фитнеса",
+        "price": 250,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Беспроводные наушники",
+        "description": "Наушники с шумоподавлением",
+        "price": 150,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Игровая консоль",
+        "description": "Последняя игровая консоль для развлечений",
+        "price": 500,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Bluetooth колонка",
+        "description": "Портативная Bluetooth колонка",
+        "price": 80,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Смарт ТВ",
+        "description": "4K Смарт ТВ с поддержкой HDR",
+        "price": 1200,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "VR-гарнитура",
+        "description": "Погружающий опыт виртуальной реальности",
+        "price": 300,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Цифровая камера",
+        "description": "Цифровая камера с высоким разрешением",
+        "price": 700,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Умный помощник",
+        "description": "Голосовой помощник для дома",
+        "price": 100,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Электронная книга",
+        "description": "Электронная книга для чтения",
+        "price": 130,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Экшен-камера",
+        "description": "Компактная экшен-камера для приключений",
+        "price": 400,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Игровая мышь",
+        "description": "Мышь с высокой точностью для игр",
+        "price": 60,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Механическая клавиатура",
+        "description": "Тактильная механическая клавиатура",
+        "price": 120,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Веб-камера",
+        "description": "1080p HD веб-камера для видеозвонков",
+        "price": 90,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Портативный SSD",
+        "description": "Быстрый портативный SSD для хранения",
+        "price": 200,
+        "imageUrl": "",
+        "IsLiked": false
+    },
+    {
+        "name": "Маршрутизатор",
+        "description": "Маршрутизатор с высокой скоростью Wi-Fi",
+        "price": 75,
+        "imageUrl": "",
+        "IsLiked": false
+    }
+]
