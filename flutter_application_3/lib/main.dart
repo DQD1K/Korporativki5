@@ -4,10 +4,14 @@ import 'package:flutter/services.dart';
 import 'product_box.dart';
 import 'product_detail_page.dart';
 import 'product_creation_page.dart';
+import 'account_page.dart';
+
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Демо Flutter',
@@ -21,12 +25,16 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+
   @override _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
   List<Product> products = [];
+
+  
 
   @override void initState() {
     super.initState();
@@ -54,10 +62,20 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
+    if (index == 2) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const AccountPage(),
+        ),
+      );
+    } else {
+      setState(() {
+        _selectedIndex = index;
+      });
+    }
   }
+
 
   @override Widget build(BuildContext context) {
     List<Product> displayedProducts;
@@ -75,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(_selectedIndex == 0 ? 'Главная страница' : 'Избранное'),
       ),
       body: displayedProducts.isEmpty
-          ? Center(child: const Text('Нет товаров для отображения'))
+          ? const Center(child: Text('Нет товаров для отображения'))
           : ListView.builder(
               padding: const EdgeInsets.fromLTRB(2.0, 10.0, 2.0, 10.0),
               itemCount: displayedProducts.length,
@@ -117,12 +135,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 );
               },
-              child: const Icon(Icons.add),
               backgroundColor: Colors.blue,
+              child: const Icon(Icons.add),
             )
           : null,
       bottomNavigationBar: BottomNavigationBar(
-        items: <BottomNavigationBarItem>[
+        items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Главная страница',

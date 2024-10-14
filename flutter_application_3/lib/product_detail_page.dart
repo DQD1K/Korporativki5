@@ -6,7 +6,7 @@ class ProductDetailPage extends StatefulWidget {
   final Product product;
   final VoidCallback onDelete;
 
-  const ProductDetailPage({required this.product, required this.onDelete});
+  const ProductDetailPage({super.key, required this.product, required this.onDelete});
 
   @override _ProductDetailPageState createState() => _ProductDetailPageState();
 }

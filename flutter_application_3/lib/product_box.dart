@@ -10,7 +10,7 @@ class ProductBox extends StatelessWidget {
   final VoidCallback onTap;
   final VoidCallback onToggleFavorite;
 
-  const ProductBox({
+  const ProductBox({super.key, 
     required this.name,
     required this.description,
     required this.price,

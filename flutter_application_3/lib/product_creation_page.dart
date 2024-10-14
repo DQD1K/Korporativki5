@@ -6,7 +6,7 @@ import 'main.dart'; // Импортируйте модель продукта
 class ProductCreationPage extends StatefulWidget {
   final Function(Product) onAdd;
 
-  const ProductCreationPage({required this.onAdd, Key? key}) : super(key: key);
+  const ProductCreationPage({required this.onAdd, super.key});
 
   @override
   _ProductCreationPageState createState() => _ProductCreationPageState();

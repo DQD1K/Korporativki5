@@ -5,7 +5,7 @@ class DeletionPage extends StatelessWidget {
   final Product product;
   final Function onDelete;
 
-  const DeletionPage({required this.product, required this.onDelete, Key? key}) : super(key: key);
+  const DeletionPage({required this.product, required this.onDelete, super.key});
 
   @override
   Widget build(BuildContext context) {
